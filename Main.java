@@ -22,10 +22,10 @@ public class Main {
         // Handel the thrown exception
         try {
             // Reserve the Car objects to its passengers, compute the trip cost, and display information
-            System.out.println("****** Reservation Details ******" + "\nTrip cost: " + passenger1.reserveCar(car1));
+            System.out.println("****** Reservation Details ******" + "\nTrip cost: $" + passenger1.reserveCar(car1));
             passenger1.displayInfo();
             System.out.println("----------------------------------------------------------------------------------------");
-            System.out.println("****** Reservation Details ******" + "\nTrip cost: " + passenger2.reserveCar(car2));
+            System.out.println("****** Reservation Details ******" + "\nTrip cost: $" + passenger2.reserveCar(car2));
             passenger2.displayInfo();
 
         } catch (Exception e) {
