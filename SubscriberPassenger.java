@@ -27,6 +27,6 @@ public class SubscriberPassenger extends Passenger {
         System.out.println("Passenger Name: " + super.getName()
                 + "\nPassenger ID: " + super.getID()
                 + "\nCar Code: " + super.getReservedCar().getCode()
-                + "\nRoute Price: " + super.getReservedCar().getRoute().getRoutePrice());
+                + "\nRoute Price: $" + super.getReservedCar().getRoute().getRoutePrice());
     }
 }
