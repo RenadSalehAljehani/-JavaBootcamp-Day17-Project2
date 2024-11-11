@@ -19,6 +19,10 @@ public class Main {
         SubscriberPassenger passenger1 = new SubscriberPassenger("Saleh Aljehani", "1289765245", car1);
         NonSubscriberPassenger passenger2 = new NonSubscriberPassenger("Mohamad Almutairi", "1376259862", car2, false);
 
+        // Add the two passengers to the ArrayList of Passengers
+        passengersList.add(passenger1);
+        passengersList.add(passenger2);
+
         // Handel the thrown exception
         try {
             // Reserve the Car objects to its passengers, compute the trip cost, and display information
